@@ -22,3 +22,5 @@ Getting started with Dell Wyse 3040 thin client as a Raspberry Pi 4 alternative
     - How to fix system not shutting down or not rebooting
     - How to fix system not booting
   - [InstallingDebianOnDellWyse 3040](https://wiki.debian.org/InstallingDebianOn/Dell/Wyse%203040)
+
+### Philipp, Marcel and Valentin will document the dell out of these Thin clients!
