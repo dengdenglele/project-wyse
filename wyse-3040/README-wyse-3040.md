@@ -23,4 +23,11 @@ Getting started with Dell Wyse 3040 thin client as a Raspberry Pi 4 alternative
     - How to fix system not booting
   - [InstallingDebianOnDellWyse 3040](https://wiki.debian.org/InstallingDebianOn/Dell/Wyse%203040)
 
+### WiFi / Expandable Storage
+- The WiFi Card Slot is an E Keyed M.2 Port.
+- *However* even though conventional WiFi Cards will fit in this port, they will not work
+- The Atom CPU only has one PCI-Lane, that is used by the Ethernet Controller
+- The WiFi Card uses the SDIO protocol (Yes, SD as in SD-Card)
+- -> For WiFi, you can buy SDIO WiFi Cards. Expandable storage may also be an option, but I did not find the correct adapter
+
 ### Philipp, Marcel and Valentin will document the dell out of these Thin clients!
