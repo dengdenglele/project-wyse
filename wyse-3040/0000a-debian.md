@@ -21,8 +21,8 @@
 
 - As disc space is limited on Dell Wyse 3040, use `Manual partitioning` instead of `Guided partitioning`
 - Without encryption, no separate `/boot` partition is needed, as already included in `/`
-- `Manual partitioning` allows installtion without `swap`, skip the warning later
-- Instead of `swap` partition, it is possible to use a `swap` file instead later
+- `Manual partitioning` allows installtion without `swap partition`, skip the warning later
+- Instead of `swap partition`, it is possible to use a `swap file` instead later
 - As `ESP`, also known as `/boot/efi`, typically requires only ~9 MB, the `ESP` can be reduced from ~650 MB to 9 MB
 
 | partition | guided  | manual   |
