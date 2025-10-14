@@ -38,3 +38,12 @@
 - Uncheck GNOME, as it is way too big for Wyse 3040
 - For remote usage select both `SSH server` and `standard system utilites`
 - Otherwise, uncheck all checkboxes and install everything manually for even smaller installation
+
+### Post installation
+
+- Increase font size of TTY
+
+```bash
+sudo dpkg-reconfigure console-setup
+# choose "UTF-8", "Latin1 and Latin5 - western Europe and Turkic languages", "Terminus", "16x32 (framebuffer only)"
+```
