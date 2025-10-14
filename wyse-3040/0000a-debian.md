@@ -27,9 +27,11 @@
 
 | partition | guided  | manual   |
 |-----------|---------|----------|
-| ESP (efi) | ~650 MB | ~32 MB   |
+| ESP (efi) | ~650 MB | ~50 MB   |
 | / (root)  | ~6.4 GB | residual |
 | swap      | ~790MB  | --       |
+
+<!-- 32MB with EFI is not allowed by installer, error message-->
 
 ### Software selection
 
