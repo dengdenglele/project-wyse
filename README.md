@@ -1,1 +1,6 @@
-tinkering with Wyse 3040 and NUC D54250WYK
+# Tinkering with small devices
+
+- Dell Wyse 3040
+- HP t640
+- Intel NUC NUC7I5BNB
+- Intel NUC D54250WYB 
