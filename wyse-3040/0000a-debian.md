@@ -15,7 +15,7 @@
 
 - Boot from USB device via `F12` menu at boot
 - Ensure that `UEFI` mode is visible in Debian installer menu
-- Select `Install`
+- Select `Advanced -> Expert Install`
 
 #### Installtion without encryption
 
