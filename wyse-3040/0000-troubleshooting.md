@@ -13,13 +13,14 @@
 - Size of internal storage < size of USB stick used
   - `dd` will display a warning that some blocks cannot be written
   - Or does it write from the beginning again or affect the other two small partitions? 
-- System is stuck on Dell Logo afte reboot
+- System is stuck on Dell Logo after reboot
 
 ### How to fix
 - (Might be unrelated) Open up the case with prying tool and unplug the CMOS battery, wait five minutes
 - Start the machine
   - Dell logo shows up and does not display any errors
   - Just wait, will get to BIOS eventually
+  - Note: eventually `F2` key needs to be at least hit once (untested)
 - In BIOS select `Data Wipe`
 - Reboot and wait again until `Data Wipe` tool asks for interaction
 - Afterwards system shall boot up normally again and show a message, that no boot device can be found
