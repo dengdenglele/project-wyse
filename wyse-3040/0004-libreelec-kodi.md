@@ -16,9 +16,14 @@ sudo dd if=/path/to/LibreELEC-Generic.x86_64-12.2.1.img of=/dev/sdX bs=4M status
 
 ## Enable front audio port
 - Adhere to these [instructions](https://www.reddit.com/r/libreELEC/comments/13u94vd/for_anyone_looking_to_install_libreelec_on_the/)
-- SSH into your LibreELEC `ssh root@<IP-address>`
-- Use the following command `echo "pactl load-module module-udev-detect" > autostart.sh`
-- Use command to `reboot`
+```bash
+## SSH into LibreELEC
+`ssh root@<IP-address>`
+
+## on LibreELEC
+echo "pactl load-module module-udev-detect" > autostart.sh # tell LibreELEC to detect additional audio devices during startup
+`reboot` # the system
+```
 
 ## Setup ARD/ZDF livestreams
 - Add the "Kodinerds" repository, instructions [here in German](https://www.kodi-tipps.de/kodinerds-repository-herunterladen-installieren/)
