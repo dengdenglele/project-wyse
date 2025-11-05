@@ -19,3 +19,7 @@ sudo dd if=/path/to/LibreELEC-Generic.x86_64-12.2.1.img of=/dev/sdX bs=4M status
 - SSH into your LibreELEC `ssh root@<IP-address>`
 - Use the following command `echo "pactl load-module module-udev-detect" > autostart.sh`
 - Use command to `reboot`
+
+## Setup ARD/ZDF livestreams
+- Add the "Kodinerds" repository, instructions [here in German](https://www.kodi-tipps.de/kodinerds-repository-herunterladen-installieren/)
+- Select and install the `ARDundZDF` Video add-on
