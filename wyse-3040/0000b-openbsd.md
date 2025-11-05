@@ -3,7 +3,6 @@
 ## Challenge
 - Do not install any additional packages
 - Try to set up a web server
-
 - in /etc is examples files
 - no `sudo`, but `doas`
 
