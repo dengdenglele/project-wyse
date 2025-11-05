@@ -23,3 +23,8 @@ sudo dd if=/path/to/LibreELEC-Generic.x86_64-12.2.1.img of=/dev/sdX bs=4M status
 ## Setup ARD/ZDF livestreams
 - Add the "Kodinerds" repository, instructions [here in German](https://www.kodi-tipps.de/kodinerds-repository-herunterladen-installieren/)
 - Select and install the `ARDundZDF` Video add-on
+
+## Kodi keyboard shortcuts
+- Keyboard shortcuts can be adjusted using .xml file
+- Default keyboard for US layout can be found in wiki [here](https://kodi.wiki/view/Keyboard_controls)
+- Sound mute/down/up is `F8`/`-`/`=`
