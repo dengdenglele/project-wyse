@@ -13,3 +13,9 @@ sudo dd if=/path/to/LibreELEC-Generic.x86_64-12.2.1.img of=/dev/sdX bs=4M status
 - Plug in the prepared thumbdrive
 - Boot from USB stick, use `F12` to select it
 - Follow the instructions, install finished in a few minutes
+
+## Enable front audio port
+- Adhere to these [instructions](https://www.reddit.com/r/libreELEC/comments/13u94vd/for_anyone_looking_to_install_libreelec_on_the/)
+- SSH into your LibreELEC `ssh root@<IP-address>`
+- Use the following command `echo "pactl load-module module-udev-detect" > autostart.sh`
+- Use command to `reboot`
