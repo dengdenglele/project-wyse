@@ -9,3 +9,11 @@
   - [Web Interface](http://tplinklogin.net)
   - Username: admin
   - Password: admin
+
+## Install OpenWrt
+- [Official instructions](https://openwrt.org/toh/tp-link/tl-wr710n)
+- Step 6 hint:
+  - [Image archive](http://archive.openwrt.org/releases/17.01.6/targets/ar71xx/generic/) for lede-17.01.6-ar71xx-generic-xyz.bin
+  - Download LEDE 17.01.6 squashfs-factory.bin image from [here](http://archive.openwrt.org/releases/17.01.6/targets/ar71xx/generic/lede-17.01.6-ar71xx-generic-tl-wr710n-v1-squashfs-factory.bin)
+- Step 11 hint:
+  - Uncheck `Keep Settings`
