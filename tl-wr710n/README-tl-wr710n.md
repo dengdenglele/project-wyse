@@ -17,3 +17,10 @@
   - Download LEDE 17.01.6 squashfs-factory.bin image from [here](http://archive.openwrt.org/releases/17.01.6/targets/ar71xx/generic/lede-17.01.6-ar71xx-generic-tl-wr710n-v1-squashfs-factory.bin)
 - Step 11 hint:
   - Uncheck `Keep Settings`
+
+## OpenWrt post install steps
+- Default access
+  - Vanilla SSID: OpenWrt
+  - [Web Interface](192.168.1.1)
+  - Username: root
+  - Password: <empty>
