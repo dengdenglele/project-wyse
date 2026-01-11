@@ -40,5 +40,7 @@
 - When rooot password characters is 101 <=length
   - Login in GUI works
   - Login via `ssh root@<IP-Address>` **fails**
-- Disable root login with password via ssh!
-- Use public key instead
+
+## Harden SSH access
+- Do not allow SSH password authentication
+- Do not allow the root user to login with password
