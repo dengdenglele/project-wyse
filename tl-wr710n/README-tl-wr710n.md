@@ -35,3 +35,10 @@
   - Host IP (LAN): `192.168.1.1`
   - Username: root
   - Password: \<empty\>
+- Note: Router password == Root password
+- Root password max length: 100 characters
+- When rooot password characters is 101 <=length
+  - Login in GUI works
+  - Login via `ssh root@<IP-Address>` **fails**
+- Disable root login with password via ssh!
+- Use public key instead
