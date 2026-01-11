@@ -45,5 +45,9 @@
 - Do not allow SSH password authentication
 - Do not allow the root user to login with password
 
+## General security best practice
+- Use WPA3, WPA3/WPA2 mixed mode is worse
+- Use WAN port + Firewall on public internet
+
 ## Other stuff
 - [How to disable WAN port, and use as LAN port](https://www.reddit.com/r/openwrt/comments/tx9nvs/comment/i3m5cud/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1)
