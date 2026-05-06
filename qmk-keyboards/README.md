@@ -29,6 +29,13 @@ LT(2,KC_SPC)
 MO(1)
 ```
 
+## Clear/reset qmk keyboard
+Tested with Sharkoon Skiller SGK55W
+
+```
+QK_CLEAR_EEPROM
+```
+
 
 ## References
 - [Switching and toggling layers](https://docs.qmk.fm/feature_layers#switching-and-toggling-layers)
