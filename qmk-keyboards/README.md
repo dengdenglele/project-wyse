@@ -1,6 +1,14 @@
 # How to use QMK keyboard
 Use a chromium based browser and open [usevia.app](https://usevia.app/)
 
+1. Settings `cog wheel` symbol
+1. Activate `Show Design Tab` slider
+1. Design `brush` symbol
+1. Load Draft Definition `Load` button
+1. Select `.json` file
+1. Configure `keyboard` symbol
+1. Connect wired keyboard with `Authorize device +`
+
 ## Tap for ESC and hold for left ctrl
 
 ```
