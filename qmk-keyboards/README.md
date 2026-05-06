@@ -39,3 +39,4 @@ QK_CLEAR_EEPROM
 
 ## References
 - [Switching and toggling layers](https://docs.qmk.fm/feature_layers#switching-and-toggling-layers)
+- [reddit: [QMK] Esc when tapped, Ctrl when held in combination with other keys.](https://www.reddit.com/r/olkb/comments/86ot8k/qmk_esc_when_tapped_ctrl_when_held_in_combination/)
