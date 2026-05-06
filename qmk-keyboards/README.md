@@ -16,17 +16,20 @@ Make sure to unplug wireless adapter and connect directly with USB-cable.
 MT(MOD_LCTL,KC_ESC)
 ```
 
-## Tap for key command and hold for layer
-
-```
-LT(1,KC_TAB)
-
-LT(2,KC_SPC)
-```
-## Fn key hold for toggle
+## Hold key for layer
+Activate (hold) `layer 1` with single key, e.g. with `Fn` key
 
 ```
 MO(1)
+```
+
+## Hold key for layer and tap key for key code
+Activate (hold/tap) `layer 2/tab` and `layer 3/space`
+
+```
+LT(2,KC_TAB)
+
+LT(3,KC_SPC)
 ```
 
 ## Clear/reset qmk keyboard
