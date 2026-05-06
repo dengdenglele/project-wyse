@@ -1,5 +1,6 @@
 # How to use QMK keyboard
-Use a chromium based browser and open [usevia.app](https://usevia.app/)
+Use a chromium based browser and open [usevia.app](https://usevia.app/).
+Make sure to unplug wireless adapter and connect directly with USB-cable.
 
 1. Settings `cog wheel` symbol
 1. Activate `Show Design Tab` slider
