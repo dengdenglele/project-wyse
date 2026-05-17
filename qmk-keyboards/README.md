@@ -39,7 +39,15 @@ Tested with Sharkoon Skiller SGK55W
 QK_CLEAR_EEPROM
 ```
 
+## Keyboard not properly connecting in [usevia.app](usevia.app) on Linux w/ Chrome
+- Go to [chrome://device-log](chrome://device-log)
+- Give permissions
+```
+sudo chown $USER:$USER /dev/hidrawX
+```
+
 
 ## References
 - [Switching and toggling layers](https://docs.qmk.fm/feature_layers#switching-and-toggling-layers)
 - [reddit: [QMK] Esc when tapped, Ctrl when held in combination with other keys.](https://www.reddit.com/r/olkb/comments/86ot8k/qmk_esc_when_tapped_ctrl_when_held_in_combination/)
+- [GitHub: Fix connection issues with usevia.app on linux](https://github.com/the-via/releases/issues/257#issuecomment-1587048882)
