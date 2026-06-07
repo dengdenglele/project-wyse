@@ -1,3 +1,21 @@
+## **UPDATE — NKRO / 6KRO Behavior Correction (Important)**
+
+* Disabling NKRO (switching to 6KRO mode) **does not fully resolve the issue**
+* It **reduces the frequency and consistency** of the problem, but:
+
+  * rogue key events still occur in wireless mode
+  * occasional media key injections (including `KEY_VOLUMEUP`, `KEY_UNKNOWN`, `KEY_YEN`, `KEY_HENKAN`) are still observed
+* The previously observed **clean 7-key failure threshold becomes less deterministic in 6KRO mode**
+
+  * behavior shifts from “repeatable trigger at 7 keys” to “intermittent corruption under high key concurrency”
+* Conclusion update:
+
+  * NKRO toggle is **mitigating symptoms rather than fixing the underlying issue**
+  * wireless HID path remains unstable even in reduced rollover mode
+
+
+
+
 # Wireless Keyboard (Sharkoon Skiller SGK55W) Generates Volume-Up Events on Linux When More Than 6 Keys Are Pressed Simultaneously
 
 ## Summary
