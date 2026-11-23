@@ -10,7 +10,7 @@ Make sure to unplug wireless adapter and connect directly with USB-cable.
 1. Configure `keyboard` symbol
 1. Connect wired keyboard with `Authorize device +`
 
-## Default layers for win/linux and mac
+## Default layers for keyboards with physical `MAC | WIN` switch
 - Sharkoon SGK55W hardware switch `MAC | WIN`:
   - layers 0|1 for `WIN` mode and layers 2|3 for `MAC` mode
 - Keychron may use hardware switch `MAC | WIN` differently
