@@ -40,6 +40,15 @@ LT(1,KC_TAB)
 LT(1,KC_SPC)
 ```
 
+## Hold left shift for delete and right shift for backspace
+```
+# Hold for "LEFT SHIFT", tap for "DELETE"
+MT(MOD_LSFT,KC_DEL)
+
+# HOLD for "RIGHT SHIFT", tap for "BACKSPACE"
+MT(MOD_RSFT,KC_BSPC)
+```
+
 ## Clear/reset qmk keyboard
 Tested with Sharkoon Skiller SGK55W
 
