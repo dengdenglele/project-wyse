@@ -15,6 +15,19 @@ Make sure to unplug wireless adapter and connect directly with USB-cable.
   - layers 0|1 for `WIN` mode and layers 2|3 for `MAC` mode
 - Keychron may use hardware switch `MAC | WIN` differently
   - layers 0|1 for `MAC` mode and layers 2|3 for `WIN` mode
+ 
+## Switch layer with toggle
+```
+# switch to layer 0 (e.g. default WIN layer depending on keyboard)
+TO(0)
+
+# Switch to layer 2 (e.e. default MAC layer depending on keyboard)
+TO(2)
+
+# Set a persistent default layer, lasts through a power loss
+## NOTE: not available on Sharkoon SGK55W in usevia.app GUI. Maybe available through .json file import? 
+PDF(0)
+```
 
 ## Tap for ESC and hold for left ctrl (win/linux) or left command (mac)
 ```
